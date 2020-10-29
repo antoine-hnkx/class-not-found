@@ -1,0 +1,155 @@
+/* SCROLLBAR STYLE */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+/* --------------- */
+
+body {
+    padding-top: 56px;
+    background-color: #343A40;
+}
+
+form.form-btn {
+    margin-right: 5px;
+}
+
+a#btn-new-question {
+    padding: 6px;
+    margin: 0px 0px 0px 6px;
+    color: black;
+}
+
+@media screen and (max-width: 767px) {
+    a#btn-new-question {
+        margin-left: 0px;
+    }
+}
+
+.question-btn {
+    margin: 5px;
+    padding: 5px;
+}
+
+#question-date{
+    padding-right: 5px;
+}
+
+#question-title {
+    margin-bottom: 25px;
+    text-decoration: underline;
+}
+
+.card-footer {
+    background-color: white;
+    margin: 0px;
+}
+
+.card-login {
+    margin-bottom: 0px;
+}
+
+.list-group {
+    margin-bottom: 10px !important;
+}
+
+#notification {
+    color: red;
+}
+
+.card-header {
+    background-color: white;
+}
+
+.card-footer-container, .likes {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.date {
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+#categories {
+    margin-bottom: 10px !important;
+    margin-left: 2px;
+}
+
+.card {
+    margin-bottom: 15px;
+}
+
+.questions {
+    text-decoration: none;
+    color: black;
+}
+
+.card-deco {
+    padding-right: 2px;
+}
+
+.categoryQuestions {
+    margin-top: 10px;
+}
+
+a.list-group-item {
+    text-decoration: none;
+    color: black;
+}
+
+a.list-group-item:hover {
+    text-decoration: none;
+    background-color: #DCDCDC;
+}
+
+.form-search {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .category {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    #categories {
+        margin-left: 17px;
+    }
+}
+
+#btn-search {
+    background-color: #CED4DA;
+    border: 1px solid #CED4DA;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border-left: none;
+}
+
+section#main {
+    background-color: #fff;
+    padding-bottom: 25px;
+}
+
+a.nav-link {
+    color: #FFF !important;
+}
+
+a.nav-link:hover {
+    color: #DCDCDC !important;
+}
