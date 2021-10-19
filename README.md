@@ -15,7 +15,7 @@
 - Admin dashboard to manage members accounts
 
 ### Try it out here!
-> https://class-not-found.herokuapp.com/
+> ~~https://class-not-found.herokuapp.com/~~ (Not available anymore)
 
 ### Credentials:
 - antoine.honinckx / azerty (*admin*)
